@@ -1,0 +1,42 @@
+/* LOGIN ADMI */
+#formularioAdmiLogin{
+    padding:10px;
+    width:25%;
+    background-color:#385170;
+    height:40vh;
+    display:flex;
+    flex-direction:column;
+    border: 3px solid;
+}
+
+#divAdmi{
+    height:100vh;
+    width:100%;
+    display: flex;
+       align-items: center;
+    justify-content:center;
+}
+
+#logoAdmi{
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.tittle-admi{
+    margin-bottom: 15px;
+}
+
+input{
+    outline: none;
+    height: 30px;
+    width: 200px;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+button{
+    padding: 5px;
+    font-weight: bold;
+}

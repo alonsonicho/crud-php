@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Radio+Canada:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+/* TITULO */
+.titulo-index {
+  background: #009640;
+  color: white;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  width: 100%;
+}
+
+/* MENU */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: green;
+  margin: 0 10px;
+  padding: 8px;
+  border-radius: 5px;
+  transition: 0.5s all;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav a:hover {
+  background-color: #125b50;
+  color: yellow;
+}
+
+/* OFRECEMOS */
+.section-ofrecemos {
+  margin: 50px;
+}
+
+.section-ofrecemos h2 {
+  margin: 50px;
+  background-color: #009640;
+}
+
+.cont-ofrecemos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cont-producto {
+  width: 35%;
+  margin: 20px;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  background-color: #05a72f;
+}
+
+.cont-producto img {
+  width: 100%;
+  height: 370px;
+  border-radius: 10px 10px 0 0;
+}
+
+.text-producto {
+  text-align: center;
+}
+
+.text-producto h3 {
+  margin: 25px 0px;
+}
+.logo {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.mapa {
+  margin-bottom: 40px;
+}
+
+/* FOOTER */
+table {
+  width: 100%;
+  background: #05a72f;
+  color: white;
+}
+
+table h1 {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+table td p {
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Section cotizar envio */
+#cotizador {
+  padding: 20px;
+  width: 60%;
+  margin: 0 auto;
+  background-color: #009640;
+}
+
+#cotizador h2 {
+  color: white;
+  text-align: center;
+  font-family: "Arial", cursive;
+  margin-top: 20px;
+}
+
+.divCotizador {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#cotizador label {
+  color: white;
+  margin: auto;
+}
+
+#cotizador select {
+  outline: none;
+  padding: 8px;
+}
+
+.divBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btnCotizar {
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.text {
+  color: black;
+}
+
+.divMensaje {
+  /* border: 3px solid red; */
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 60%;
+  text-align: center;
+}
+
+/* CSS Y JS */
+/* section */
+.section {
+  padding: 50px 0;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+
+.cont-img img {
+  height: 20rem;
+}
+
+.about-center {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}
+
+.about {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tab-btn {
+  padding: 1rem 0;
+  border: none;
+  font-size: 1rem;
+  display: block;
+  cursor: pointer;
+  background-color: #D0C9C0;
+}
+
+.about-content {
+  padding: 2rem 1.5rem;
+  background-color: beige;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block {
+  display: none;
+  text-align: center;
+}
+
+/* Utilizamos JS para activar esta clase active */
+.activeBtn{
+    background-color: green;
+    color:white;
+}
+
+.active{
+    display: block;
+}
+
+.header{
+  position: fixed;
+  background-color: #FFFFFF;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}

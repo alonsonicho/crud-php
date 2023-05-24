@@ -1,0 +1,81 @@
+.sectionProducto{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card-imagen{
+    width: 20%;
+    height: 465px;
+    color: black;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card-imagen img{
+    width: 250px;
+    height: 250px;
+}
+
+.card-imagen form{
+    margin-top: 15px;
+}
+
+.card-imagen form input[type="text"]{
+    margin-bottom: 10px;
+    outline: none;
+    padding: 5px;
+}
+
+
+.form-select{
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*  */
+
+.divCarritooo{
+    display: flex;
+    float: right;
+}
+
+.carrito{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-right: 100px;
+}
+
+
+.contador{
+    color: white;
+    height: 30px;
+    background-color: red;
+    padding: 8px;
+    border-radius: 50%;
+    position: absolute;
+    float: right;
+    right: 95px;
+    top: 110px;
+}
+
+
+#form-selected{
+    border: 1px solid black;
+    margin-bottom: 15px;
+}

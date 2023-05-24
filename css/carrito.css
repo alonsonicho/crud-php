@@ -1,0 +1,38 @@
+.tabla-carrito{
+    background: white;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* padding: 50px; */
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.tabla-carrito thead th{
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #34495e;
+    color: white;
+}
+
+.tabla-carrito tr{
+    border: 2px solid black;
+}
+
+.tabla-carrito td{
+    border: 2px solid black;
+}
+
+.tr-eliminar td{
+    padding: 25px;
+}
+
+.tr-eliminar td a{
+    color: white;
+    text-decoration: none;
+    background-color: #ff5959;
+    padding: 8px;
+    border-radius: 5px;
+}
